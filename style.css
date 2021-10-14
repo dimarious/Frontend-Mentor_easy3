@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    } 
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+    /*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+
+    
+.container{
+    display: flex;
+    color: white;
+    height: 14cm;
+    max-width: 25cm;
+    position: absolute;
+    top: calc(50% - 200px);
+    left:0;
+    right:0;
+    margin: 0 auto;
+    
+}
+img{
+    padding: 17%;
+}
+h1{
+    padding-left: 17%;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    transform: scale(1, 2);
+    font-size: 24px;
+    font-stretch:condensed ;
+    font-weight: 700;
+    
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 17%;
+    padding-top: 10%;
+    padding-right: 22%;
+    padding-bottom: 25%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    
+}
+a{
+    font-family: 'Lexend Deca', sans-serif;
+    
+    
+}
+.floating-button{
+
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 53px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 3px solid white;
+  
+  
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.card1>.floating-button{
+    margin: 18px 53px;
+}
+
+.card1>.floating-button:hover{
+    color:hsl(31, 77%, 52%);
+    background-color: white;
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.card2>.floating-button:hover{
+    color: hsl(184, 100%, 22%);
+    background-color: white;
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card3>.floating-button:hover{
+    color: hsl(179, 100%, 13%);
+    background-color: white;
+}
+
+
+.attribution {  font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
